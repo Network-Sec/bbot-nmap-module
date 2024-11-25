@@ -14,7 +14,7 @@ class nmap(BaseModule):
     meta = {
         "description": "Port scan and service detection with Nmap.",
         "created_date": "2024-11-25",
-        "author": "@TheTechromancer",
+        "author": "@Network-Sec.de",
     }
     options = {
         "top_ports": 1000,
