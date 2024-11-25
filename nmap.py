@@ -2,10 +2,9 @@ import json
 import ipaddress
 from contextlib import suppress
 from radixtarget import RadixTarget
-import xml.etree.ElementTree as ET  # Correct XML parsing
+import xml.etree.ElementTree as ET 
 
 from bbot.modules.base import BaseModule
-
 
 class nmap(BaseModule):
     flags = ["active", "portscan", "safe"]
