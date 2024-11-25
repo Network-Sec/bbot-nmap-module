@@ -2,6 +2,29 @@
 nmap module for the amazing scanner "bbot"
 
 ```bash
+┌──(bbot)(kali㉿WSL)-[/opt/bbot]
+└─$ bbot -t network-sec.de -m nmap
+  ______  _____   ____ _______
+ |  ___ \|  __ \ / __ \__   __|
+ | |___) | |__) | |  | | | |
+ |  ___ <|  __ <| |  | | | |
+ | |___) | |__) | |__| | | |
+ |______/|_____/ \____/  |_|
+ BIGHUGE BLS OSINT TOOL v2.2.0
+
+www.blacklanternsecurity.com/bbot
+
+[INFO] Scan with 1 modules seeded with 1 targets (1 in whitelist)
+[INFO] Loaded 1/1 scan modules (nmap)
+[INFO] Loaded 5/5 internal modules (aggregate,cloudcheck,dnsresolve,excavate,speculate)
+[INFO] Loaded 5/5 output modules, (csv,json,python,stdout,txt)
+[WARN] Nmap requires root privileges
+[USER] Please enter sudo password:
+[SUCC] Authentication successful
+[INFO] internal.excavate: Compiling 12 YARA rules
+[SUCC] Setup succeeded for 13/13 modules.
+[SUCC] Scan ready. Press enter to execute lovely_michelle
+
 [SUCC] Scan lovely_michelle completed in 6 seconds with status FINISHED
 [INFO] aggregate: +------------+----------------------------+--------------------------------+
 [INFO] aggregate: | Module     | Produced                   | Consumed                       |
